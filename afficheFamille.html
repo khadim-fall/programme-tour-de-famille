@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rencontre Mensuelle - Les Petits-Fils de Mame Ibra Bintè Fall</title>
+  <style>
+    @media print {
+      body {
+        background: white !important;
+        padding: 0;
+        margin: 0;
+      }
+      .card {
+        box-shadow: none;
+        border: 2px solid #007F5F;
+      }
+    }
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #fefefe;
+      margin: 0;
+      padding: 1rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      background: linear-gradient(to bottom, #f3fdf4, #e8f5e9);
+    }
+    .card {
+      background: white;
+      border: 2px solid #007F5F;
+      border-radius: 16px;
+      padding: 0.8rem;
+      max-width: 300px;
+      width: 100%;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+    .card h1 {
+      color: #007F5F;
+      font-size: 1.2rem;
+      margin-bottom: 0.4rem;
+    }
+    .card h2 {
+      color: #D4AF37;
+      font-size: 1rem;
+      margin-bottom: 0.8rem;
+    }
+    .event-info {
+      margin: 0.6rem 0;
+      font-size: 0.9rem;
+      color: #333;
+    }
+    .event-info span {
+      font-weight: bold;
+      color: #007F5F;
+    }
+    .image-preview {
+      margin-top: 0.6rem;
+    }
+    .image-preview img {
+      width: 100%;            /* prend toute la largeur du cadre */
+      height: auto;           /* conserve les proportions */
+      max-height: 150px;      /* limite la hauteur si besoin */
+      border-radius: 10px;
+      border: 1px solid #ccc;
+      object-fit: cover;
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Les Petits-Fils de Mame Ibra Binta Fall</h1>
+    <h2>Rencontre Annuelle</h2>
+    <div class="event-info">
+      <p><span>Date :</span> 3<sup>ème</sup> jour de la Tabaski</p>
+      <p><span>Heure :</span> 10h00</p>
+      <p><span>Lieu :</span> Pallene Mafall Fall, Louga</p>
+      <p><span>Hôte :</span> Chez Keur Ibra Bineta FALL</p>
+    </div><!-- 
+    <div class="image-preview">
+      <img src="./assets/images/photoFamille.jpg" alt="Photo de la rencontre familiale">
+    </div> -->
+    <div class="video-preview" style="margin-top: 1rem;">
+      <video controls width="100%" poster="./assets/images/photoFamille.jpg">
+        <source src="./assets/videos/video.mp4" type="video/mp4">
+        Votre navigateur ne supporte pas la vidéo.
+      </video>
+    </div>
+  </div>
+</body>
+</html>
